@@ -16,6 +16,7 @@ def index():
 #
 # GET /results
 # GET /results?choice=rock
+# POST /results
 #
 @game_routes.route("/results", methods=["GET", "POST"])
 def results(choice=None):
