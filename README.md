@@ -49,7 +49,7 @@ pip install -r requirements.txt
 Run a local web server, then view your app in a browser at http://localhost:5000/:
 
 ```sh
-# Mac Terminal:
+# Mac Terminal or Windows Git Bash:
 FLASK_APP=web_app flask run
 
 # Windows Command Prompt:
