@@ -1,7 +1,7 @@
 
 from flask import Blueprint, request, render_template
 
-from web_app.game import *
+from game_utils.rock_paper_scissors import *
 
 game_routes = Blueprint("game_routes", __name__)
 
